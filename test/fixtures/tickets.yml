@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  owner: MyString
+  number: MyString
+  full: MyString
+  name: MyString
+
+two:
+  owner: MyString
+  number: MyString
+  full: MyString
+  name: MyString
