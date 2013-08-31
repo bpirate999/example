@@ -11,7 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130825210608) do
+ActiveRecord::Schema.define(version: 20130831163647) do
+
+  create_table "events", force: true do |t|
+    t.string   "artist"
+    t.text     "description"
+    t.decimal  "price_low"
+    t.decimal  "price_high"
+    t.date     "event_date"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "tickets", force: true do |t|
     t.string   "owner"
